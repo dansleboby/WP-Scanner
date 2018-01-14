@@ -1,0 +1,186 @@
+_______________________________________________________________
+        __          _______   _____                  
+        \ \        / /  __ \ / ____|                 
+         \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+          \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \ 
+           \  /\  /  | |     ____) | (__| (_| | | | |
+            \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+        WordPress Security Scanner by the WPScan Team 
+                       Version 2.9.4-dev
+          Sponsored by Sucuri - https://sucuri.net
+      @_WPScan_, @ethicalhack3r, @erwan_lr, @_FireFart_
+_______________________________________________________________
+
+[34m[i][0m Updating the Database ...
+[34m[i][0m Update completed.
+Following redirection https://conceptot.ca/
+[32m[+][0m URL: https://conceptot.ca/
+[32m[+][0m Started: Sat Dec 30 20:03:31 2017
+
+[32m[+][0m robots.txt available under: 'https://conceptot.ca/robots.txt'
+[32m[+][0m Interesting entry from robots.txt: https://conceptot.ca/wp-admin/admin-ajax.php
+[33m[!][0m Full Path Disclosure (FPD) in 'https://conceptot.ca/wp-includes/rss-functions.php': 
+[32m[+][0m Interesting header: CF-RAY: 3d579a87fbc89212-EWR
+[32m[+][0m Interesting header: SERVER: cloudflare
+[32m[+][0m Interesting header: X-POWERED-BY: PHP/5.6.32
+[32m[+][0m XML-RPC Interface available under: https://conceptot.ca/xmlrpc.php
+[33m[!][0m The WordPress 'https://conceptot.ca/readme.html' file exists exposing a version number
+
+[32m[+][0m WordPress version 4.7.6 (Released on 2017-09-19) identified from meta generator
+[31m[!][0m 7 vulnerabilities identified from the version number
+
+[31m[!][0m Title: WordPress 2.3-4.8.3 - Host Header Injection in Password Reset
+    Reference: https://wpvulndb.com/vulnerabilities/8807
+    Reference: https://exploitbox.io/vuln/WordPress-Exploit-4-7-Unauth-Password-Reset-0day-CVE-2017-8295.html
+    Reference: http://blog.dewhurstsecurity.com/2017/05/04/exploitbox-wordpress-security-advisories.html
+    Reference: https://core.trac.wordpress.org/ticket/25239
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-8295
+
+[31m[!][0m Title: WordPress 2.3-4.8.3 - Host Header Injection in Password Reset
+    Reference: https://wpvulndb.com/vulnerabilities/8807
+    Reference: https://exploitbox.io/vuln/WordPress-Exploit-4-7-Unauth-Password-Reset-0day-CVE-2017-8295.html
+    Reference: http://blog.dewhurstsecurity.com/2017/05/04/exploitbox-wordpress-security-advisories.html
+    Reference: https://core.trac.wordpress.org/ticket/25239
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-8295
+
+[31m[!][0m Title: WordPress <= 4.8.2 - $wpdb->prepare() Weakness
+    Reference: https://wpvulndb.com/vulnerabilities/8941
+    Reference: https://wordpress.org/news/2017/10/wordpress-4-8-3-security-release/
+    Reference: https://github.com/WordPress/WordPress/commit/a2693fd8602e3263b5925b9d799ddd577202167d
+    Reference: https://twitter.com/ircmaxell/status/923662170092638208
+    Reference: https://blog.ircmaxell.com/2017/10/disclosure-wordpress-wpdb-sql-injection-technical.html
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-16510
+[34m[i][0m Fixed in: 4.7.7
+
+[31m[!][0m Title: WordPress 2.8.6-4.9 - Authenticated JavaScript File Upload
+    Reference: https://wpvulndb.com/vulnerabilities/8966
+    Reference: https://wordpress.org/news/2017/11/wordpress-4-9-1-security-and-maintenance-release/
+    Reference: https://github.com/WordPress/WordPress/commit/67d03a98c2cae5f41843c897f206adde299b0509
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17092
+[34m[i][0m Fixed in: 4.7.8
+
+[31m[!][0m Title: WordPress 1.5.0-4.9 - RSS and Atom Feed Escaping
+    Reference: https://wpvulndb.com/vulnerabilities/8967
+    Reference: https://wordpress.org/news/2017/11/wordpress-4-9-1-security-and-maintenance-release/
+    Reference: https://github.com/WordPress/WordPress/commit/f1de7e42df29395c3314bf85bff3d1f4f90541de
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17094
+[34m[i][0m Fixed in: 4.7.8
+
+[31m[!][0m Title: WordPress 4.3.0-4.9 - HTML Language Attribute Escaping
+    Reference: https://wpvulndb.com/vulnerabilities/8968
+    Reference: https://wordpress.org/news/2017/11/wordpress-4-9-1-security-and-maintenance-release/
+    Reference: https://github.com/WordPress/WordPress/commit/3713ac5ebc90fb2011e98dfd691420f43da6c09a
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17093
+[34m[i][0m Fixed in: 4.7.8
+
+[31m[!][0m Title: WordPress 3.7-4.9 - 'newbloguser' Key Weak Hashing
+    Reference: https://wpvulndb.com/vulnerabilities/8969
+    Reference: https://wordpress.org/news/2017/11/wordpress-4-9-1-security-and-maintenance-release/
+    Reference: https://github.com/WordPress/WordPress/commit/eaf1cfdc1fe0bdffabd8d879c591b864d833326c
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17091
+[34m[i][0m Fixed in: 4.7.8
+
+[32m[+][0m Enumerating plugins from passive detection ...
+ | 7 plugins found:
+
+[32m[+][0m Name: Ultimate_VC_Addons
+ |  Location: https://conceptot.ca/wp-content/plugins/Ultimate_VC_Addons/
+ |  Changelog: https://conceptot.ca/wp-content/plugins/Ultimate_VC_Addons/changelog.txt
+
+[33m[!][0m We could not determine a version so all vulnerabilities are printed out
+
+[31m[!][0m Title: Ultimate Addons for Visual Composer <= 3.16.11 - Authenticated XSS, CSRF, RCE
+    Reference: https://wpvulndb.com/vulnerabilities/8821
+    Reference: http://wphutte.com/ultimate-addons-for-visual-composer-v3-16-10-xss-csrf-rce/
+    Reference: https://codecanyon.net/item/ultimate-addons-for-visual-composer/6892199
+[34m[i][0m Fixed in: 3.16.12
+
+[32m[+][0m Name: contact-form-7 - v4.8
+ |  Last updated: 2017-12-09T07:32:00.000Z
+ |  Location: https://conceptot.ca/wp-content/plugins/contact-form-7/
+ |  Readme: https://conceptot.ca/wp-content/plugins/contact-form-7/readme.txt
+[33m[!][0m The version is out of date, the latest version is 4.9.2
+
+[32m[+][0m Name: js_composer
+ |  Location: https://conceptot.ca/wp-content/plugins/js_composer/
+
+[33m[!][0m We could not determine a version so all vulnerabilities are printed out
+
+[31m[!][0m Title: Visual Composer <= 4.7.3 - Multiple Unspecified Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8208
+    Reference: http://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431
+    Reference: https://forums.envato.com/t/visual-composer-security-vulnerability-fix/10494/7
+[34m[i][0m Fixed in: 4.7.4
+
+[32m[+][0m Name: revslider
+ |  Location: https://conceptot.ca/wp-content/plugins/revslider/
+
+[33m[!][0m We could not determine a version so all vulnerabilities are printed out
+
+[31m[!][0m Title: WordPress Slider Revolution Local File Disclosure
+    Reference: https://wpvulndb.com/vulnerabilities/7540
+    Reference: http://blog.sucuri.net/2014/09/slider-revolution-plugin-critical-vulnerability-being-exploited.html
+    Reference: http://packetstormsecurity.com/files/129761/
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1579
+    Reference: https://www.exploit-db.com/exploits/34511/
+    Reference: https://www.exploit-db.com/exploits/36039/
+[34m[i][0m Fixed in: 4.1.5
+
+[31m[!][0m Title: WordPress Slider Revolution Shell Upload
+    Reference: https://wpvulndb.com/vulnerabilities/7954
+    Reference: https://whatisgon.wordpress.com/2014/11/30/another-revslider-vulnerability/
+    Reference: https://www.rapid7.com/db/modules/exploit/unix/webapp/wp_revslider_upload_execute
+    Reference: https://www.exploit-db.com/exploits/35385/
+[34m[i][0m Fixed in: 3.0.96
+
+[32m[+][0m Name: woocommerce - v3.1.0
+ |  Last updated: 2017-12-13T16:24:00.000Z
+ |  Location: https://conceptot.ca/wp-content/plugins/woocommerce/
+ |  Readme: https://conceptot.ca/wp-content/plugins/woocommerce/readme.txt
+[33m[!][0m The version is out of date, the latest version is 3.2.6
+
+[32m[+][0m Name: wp-google-maps - v6.4.05
+ |  Last updated: 2017-09-07T08:34:00.000Z
+ |  Location: https://conceptot.ca/wp-content/plugins/wp-google-maps/
+ |  Readme: https://conceptot.ca/wp-content/plugins/wp-google-maps/readme.txt
+[33m[!][0m The version is out of date, the latest version is 6.4.06
+
+[32m[+][0m Name: wordpress-seo - v4.9
+ |  Last updated: 2017-12-20T08:23:00.000Z
+ |  Location: https://conceptot.ca/wp-content/plugins/wordpress-seo/
+ |  Readme: https://conceptot.ca/wp-content/plugins/wordpress-seo/readme.txt
+[33m[!][0m The version is out of date, the latest version is 6.0
+
+[31m[!][0m Title: Yoast SEO <= 5.7.1 - Unauthenticated Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8960
+    Reference: https://plugins.trac.wordpress.org/changeset/1766831/wordpress-seo/trunk/admin/google_search_console/class-gsc-table.php
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-16842
+[34m[i][0m Fixed in: 5.8
+
+[32m[+][0m Finished: Sat Dec 30 20:05:15 2017
+[32m[+][0m Requests Done: 406
+[32m[+][0m Memory used: 176.824 MB
+[32m[+][0m Elapsed time: 00:01:44
+[34m[i][0m The supplied log file /var/www/html/log.log already exists. If you continue the new output will be appended.
+_______________________________________________________________
+        __          _______   _____                  
+        \ \        / /  __ \ / ____|                 
+         \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+          \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \ 
+           \  /\  /  | |     ____) | (__| (_| | | | |
+            \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+        WordPress Security Scanner by the WPScan Team 
+                       Version 2.9.4-dev
+          Sponsored by Sucuri - https://sucuri.net
+      @_WPScan_, @ethicalhack3r, @erwan_lr, @_FireFart_
+_______________________________________________________________
+
+[34m[i][0m Updating the Database ...
+[34m[i][0m Update completed.
+[32m[+][0m URL: http://imprimeriedesmarais.ca/
+[32m[+][0m Started: Sat Dec 30 21:22:45 2017
+
+[32m[+][0m robots.txt available under: 'http://imprimeriedesmarais.ca/robots.txt'
+[32m[+][0m Interesting entry from robots.txt: http://imprimeriedesmarais.ca/wp-admin/admin-ajax.php

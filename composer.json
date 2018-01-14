@@ -1,0 +1,6 @@
+{
+    "require": {
+        "sensiolabs/ansi-to-html": "^1.1",
+        "spipu/html2pdf": "^5.0"
+    }
+}
